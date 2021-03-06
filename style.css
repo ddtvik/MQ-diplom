@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.welcome {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #000000;
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+.mask {
+  position: relative;
+  z-index: 2;
+}
+.welcome-container {
+  display: flex;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-text {
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
+}
+.logo-link {
+  width: 182px;
+  height: 42px;
+  margin-top: 28px;
+  margin-bottom: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu-list-welcome {
+  display: flex;
+  list-style-type: none;
+  margin-top: 43px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 525px;
+}
+.menu-welcome-item:nth-child(n + 2) {
+  margin-left: 35px;
+}
+.a-welcome {
+  font-family: OpenSans-Regular;
+  line-height: normal;
+  color: #ced1ce;
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.menu {
+  color: #c0c0c0;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: OpenSans-Regular;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.welcome:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  botton: 0;
+  background-color: #000000;
+  opacity: 60%;
+  z-index: 1;
+}
+.header-logo {
+}
+					
